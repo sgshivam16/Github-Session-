@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Forms</title>
+	</head>
+	<body>
+		<form action="index.html">
+			<label for="name">Name:</label>
+			<input type="text" name="firstName" id="name" required />
+			<br />
+			<label for="email">Email:</label>
+			<input type="email" name="emailId" id="email" /> <br />
+			<label for="phone">Phone:</label>
+			<input type="number" name="phoneNo" id="phone" /> <br />
+			Section: <br />
+
+			<input type="radio" name="Section" id="sectionA" />
+			<label for="sectionA"> A </label><br />
+
+			<input type="radio" name="Section" id="sectionB" />
+			<label for="sectionB"> B </label><br />
+
+			<input type="radio" name="Section" id="sectionC" />
+			<label for="sectionC"> C </label><br />
+			<label for="dob">DOB: </label>
+			<input type="date" id="dob" name="dob" /> <br />
+			<label for="agree">Do you agree?</label>
+			<input type="checkbox" name="agreeBox" id="agree" /> <br />
+			<label for="favFood"> Favourite Food: </label>
+			<select name="favFood" id="favFood">
+				<option value="Pizza">Piiizzzzza</option>
+				<option value="Burger">Burger</option>
+				<option value="Nachos">Nachos</option>
+				<option value="" selected>Enter your choice</option>
+			</select>
+			<br />
+			Password:<input type="password" />
+			<label for="aboutyou">About you:</label>
+			<textarea name="about" id="aboutyou" cols="30" rows="10"></textarea>
+
+			<input type="submit" name="Submit" />
+		</form>
+		<hr />
+		<center>
+			<video
+				width="500px"
+				src="https://youtu.be/X4wYO6zRLls"
+				controls
+				autoplay
+				loop
+			></video>
+		</center>
+		<iframe src="./index.html" width="400px" frameborder="2"></iframe>
+		<br />
+		<iframe
+			width="540"
+			height="641"
+			src="https://www.youtube.com/embed/X4wYO6zRLls"
+			frameborder="1"
+			allow="accelerometer;"
+		></iframe>
+	</body>
+</html>
+
+<!-- firstName=dfsdfsfs&emailId=&phoneNo=&dob=&favFood=&about=&Submit=Submit -->

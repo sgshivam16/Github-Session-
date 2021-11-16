@@ -1,0 +1,34 @@
+Shivam NOT EQUAL shivam  -> Case Sensitive
+Shivam EQUAL shivam -> Case Insensitive
+
+basic stucture of html
+<html>
+    <head>
+        about of website
+    </head>
+
+    <body>
+        content of website
+    </body>
+</html>
+
+html:5
+
+#Headings
+h1 - h6
+h1 > h2 > h3 > h4 > h5 > h6
+
+#Paragraph
+<p>
+
+#image
+img -> src - source
+        alt - alternate text
+
+#Lists
+1. unordered - not numbered - order doesnt matter
+2. ordered - numbered, ordered - food recipe
+
+#Text Formatting
+1. b and strong -> bold
+2. i and em -> italic
