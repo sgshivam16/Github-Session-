@@ -1,0 +1,7 @@
+GIT COMMANDS -> git init -> git initialize
+git checkout branch_name -> it checks u out to that branch if existing (OR)
+git checkout -b branch_name -> it makes a new branch with taht name and check out to it
+git status -> files which are changed but not in staging area
+git add -> adds the file to staging area --- git add fileName, git add . (everything)
+git commit -m "initial commit"
+git push origin branch_name(which you have to push) - To make a pull req
