@@ -1,6 +1,6 @@
-GIT COMMANDS -> git init -> git initialize
+GIT COMMANDS -> git init -> git initialize // just one time
 git checkout branch_name -> it checks u out to that branch if existing (OR)
-git checkout -b branch_name -> it makes a new branch with taht name and check out to it
+git checkout -b branch_name -> it makes a new branch with taht name and checks out to it
 git status -> files which are changed but not in staging area
 git add -> adds the file to staging area --- git add fileName, git add . (everything)
 git commit -m "initial commit"
